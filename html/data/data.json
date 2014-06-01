@@ -1,0 +1,19 @@
+{
+  "platforms": {
+    "osx": {
+        "available" : "true",
+        "default" : "true",
+        "selected" : "true"
+    },
+    "windowCB": {
+        "available" : "false",
+        "default" : "false",
+        "selected" : "false"
+    },
+    "windowsVS": {
+        "available" : "false",
+        "default" : "false",
+        "selected" : "false"
+    }
+  }
+}

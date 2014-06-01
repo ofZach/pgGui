@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<title>abcdef</title>
+
+	<link rel="stylesheet" href="css/blitzer/jquery-ui-1.9.0.custom.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/app.css">
+
+	<script src="js/jquery-1.8.2.min.js"></script>
+	<script src="js/jquery-ui-1.9.0.custom.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/app.js"></script>
+
+	<script>
+
+
+
+    // var item = $("#xs").
+    // item.addEventListener("mouseover", func, false);
+    // item.addEventListener("mouseout", func1, false);
+
+    // function func()
+    // {  // not needed since item is already global, 
+    //     // I am assuming this is here just because it's sample code?
+    //     // var item = document.getElementById("button"); 
+    //     item.setAttribute("style", "background-color:blue;")
+    // }
+
+    // function func1()
+    // {  
+    //     item.setAttribute("style", "background-color:green;")
+    // }
+
+</script>
+</head>
+<body>
+
+	<div class="main" id="mainPage">
+
+		<div class ="group">
+			<div class="row">
+				<div class="col-md-4">
+					<div id="logo">logo</div>
+				</div>
+				<div class="col-md-4"></div>
+				<div class="col-md-4">
+					<button type="button" class="btn btn-default flatButton" id="configBtn">
+						<span class="glyphicon glyphicon-cog"></span>
+					</button>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="xs" class="containerz">
+
+			<div class ="group">
+				<div class="text">PROJECT NAME</div>
+				<input type="text" class="textInput" id='projName'></input>
+			</div>
+
+			<div class ="group">
+				<div class="text">LOCATION</div>
+
+				<div class="row flatButton">
+					<div class="col-lg-12">
+						<div class="input-group textInputSmall">
+							<input type="text" class="form-control grayFlat textInputSmallPadding">
+							<span class="input-group-btn">
+								<button class="btn btn-default flatButton" type="button">
+									<span class="glyphicon glyphicon-chevron-down "></span>
+								</button>
+							</span>
+						</div><!-- /input-group -->
+					</div><!-- /.col-lg-6 -->
+				</div>
+			</div>
+		</div>
+
+		<div class="containerz">
+			<div id="text">ADDONS</div>
+			<div id="chosenAddonList"></div>
+			<div class="row">
+				<div class="col-md-4">
+				</div>
+				<div class="col-md-4"></div>
+				<div class="col-md-4">
+					<button type="button" class="btn btn-default flatButton" id="addonBtn">
+						<span class="glyphicon glyphicon-cog"></span>
+					</button>
+				</div>
+			</div>
+
+		</div>
+
+		<div id="platformList">
+		<div class="platform">OSX</div>
+		<div class="platform">windows codeblocks</div>
+		<div class="platform">windows visualstudio</div>
+		<div class="platform">linux cb</div>
+		<div class="platform">iOS</div>
+		</div>
+
+	</div>
+
+
+	<!-- -------------------------- config --------------------------- -->
+
+
+	<div class="main" id="configPage">
+		<div class ="group">
+			<div class="row">
+				<div class="col-md-4">
+					<div id="logo">logo</div>
+				</div>
+				<div class="col-md-4"></div>
+				<div class="col-md-4">
+					<button type="button" class="btn btn-default flatButton" id="backBtn">
+						<span class="glyphicon glyphicon-cog"></span>
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class ="containerz">
+			<div class ="group">
+				<div class="text">OF PATH</div>
+				<input type="text" class="textInput" id='projName'></input>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- -------------------------- addons --------------------------- -->
+
+
+	<div class="main" id="addonPage">
+		<div class ="group">
+			<div class="row">
+				<div class="col-md-4">
+					<div id="logo">logo</div>
+				</div>
+				<div class="col-md-4"></div>
+				<div class="col-md-4">
+					<button type="button" class="btn btn-default flatButton" id="backBtn2">
+						<span class="glyphicon glyphicon-cog"></span>
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class ="containerz">
+			<div class ="group">
+				<div class="text">ADOOOOOONS</div>
+				<div id="selectAddonList"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+
+

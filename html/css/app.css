@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'franklin_gothic_bookregular';
+    src: url('../font/fgb-webfont.eot');
+    src: url('../font/fgb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/fgb-webfont.woff') format('woff'),
+         url('../font/fgb-webfont.ttf') format('truetype'),
+         url('../font/fgb-webfont.svg#franklin_gothic_bookregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	font-family: 'franklin_gothic_bookregular', Fallback, sans-serif;
+	width: 400px;
+    margin: 20px 0 0 20px;
+	height: 100%;
+    background-color: #e6e6e6;
+}
+
+.group {
+    margin-bottom: 20px;
+}
+
+.flatButton{
+	border: none ! important;
+    box-shadow: none ! important;
+    outline: none ! important;
+      -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+          height:30px;
+}
+
+.toggleButton {
+    float:right;
+    visibility:hidden;
+}
+
+.addonListing span{
+     visibility: hidden;
+}
+
+.addonListing.selected span{
+     visibility: visible;
+}
+
+.platform span{
+     visibility: hidden;
+     width: 0px;
+}
+
+.platform.selected span{
+     visibility: visible;
+     padding-left: 20px;
+      padding-right: 20px;
+}
+
+.platform.unavailable{
+     opacity:0.4;
+}
+
+
+
+
+.addonListing.selected{
+    background-color:#fefefe;
+}
+
+.addonListing:hover {
+    background-color:#ffffff;
+}
+
+.toggleButton.selected{
+    visibility:visible;
+}
+
+#logo {
+    width:40px;
+    height: 30px;
+    background-color: #ddd;
+}
+
+.platform {
+    background-color: #ddd;
+    float:left;
+    margin-right: 10px;
+    margin-bottom:10px;
+    padding:10px;
+}
+
+.containerz {
+	border-style:dashed;
+	margin: 0 0 20px 0;
+	padding: 20px;
+}
+
+.textInput{
+	background-color:#dcdcdc;
+	border: none ! important;
+    box-shadow: none ! important;
+    outline: none ! important;
+    padding:10px;
+    height:30px;
+	width:350px;
+}
+
+#configPage {
+}
+
+#mainPage{
+
+}
+
+.addonListing {
+    background-color:#dcdcdc;
+    padding:10px;
+    margin-bottom: 10px;
+}
+
+.grayFlat {
+    background-color:#dcdcdc;
+    border: none ! important;
+    box-shadow: none ! important;
+    outline: none ! important;
+}
+
+.textInputSmall{
+    
+    height:30px;
+    width:350px;
+
+}
+
+.textInputSmallPadding{
+         -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+    padding:10px;
+}
+
+
+
+.main{
+	
+	width: 400px;
+}
