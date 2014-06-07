@@ -1,1 +1,2 @@
-ofxInteractivePrimitives
+ofxXmlSettings
+ofxGui
